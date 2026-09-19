@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "formal_source_byte_match": true,
+  "documentation_links_ok": true,
+  "json_ok": true,
+  "six_synthetic_pngs_verified": true,
+  "hardware_flashed": false,
+  "source_files": 47,
+  "binary_sha256": "6ceaade67fc4debf96612b9cc32693cf398af8f38049eac68a34c8326c241281"
+}

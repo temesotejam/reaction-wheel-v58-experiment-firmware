@@ -1,0 +1,15 @@
+{
+  "changed": [
+    "src/config.h",
+    "src/fixed_probe_json.cpp",
+    "src/fixed_probe_manager.cpp",
+    "src/fixed_probe_runner.cpp",
+    "src/fixed_probe_v57.h",
+    "src/main.cpp",
+    "src/psram_logger.cpp",
+    "src/roller485_manager.cpp",
+    "src/roller485_manager.h",
+    "src/web_ui.cpp"
+  ],
+  "unchanged_source_files": 21
+}

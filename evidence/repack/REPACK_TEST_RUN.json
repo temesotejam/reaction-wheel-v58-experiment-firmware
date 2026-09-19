@@ -1,0 +1,14 @@
+{
+  "created_jst": "2026-09-19T20:28:20+09:00",
+  "passed": true,
+  "command": "python -B firmware/tools/test_v58.py (cwd=firmware)",
+  "source_unchanged": true,
+  "hardware_validated": false,
+  "compiler": "C:\\Program Files\\mingw64\\bin\\g++.EXE",
+  "python": "3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]",
+  "result_files": [
+    "analysis/v58_tests/METADATA_TEST_RESULT.json",
+    "analysis/v58_tests/TEST_RESULT.json",
+    "analysis/v58_tests/offline/OFFLINE_TEST_RESULT.json"
+  ]
+}

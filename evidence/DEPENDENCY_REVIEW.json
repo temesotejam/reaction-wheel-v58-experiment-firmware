@@ -1,0 +1,7 @@
+{
+  "library": "Adafruit AHRS 2.4.0",
+  "reviewed_file": "Projects/2026_09_13_atoms3cam_v58_paired_probe_coast_logger/.pio/libdeps/atoms3cam/Adafruit AHRS/src/Adafruit_AHRS_Madgwick.cpp",
+  "sha256": "75dfed2812359028393fa6597eacaaf211ac545e674361cc127a8d46fb2feeee",
+  "finding": "The six-argument updateIMU calls the dt overload with invSampleFreq; begin(200) sets nominal 5 ms. The firmware does not pass measured dt to this call.",
+  "redistributed_library_source": false
+}

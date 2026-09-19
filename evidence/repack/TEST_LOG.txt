@@ -1,0 +1,24 @@
+normal_deadline_transition reason=PENDING aborted=0 index=1 current_reads_delta=0 sequence_delta=0 failures=0 previous_result=COMPLETE deadline_met=1
+full=0 count=20 valid=20 expected=20
+full=1 count=100 valid=100 expected=100
+V58 production: normal deadline transition, 20/100 paired event runs, retry, pulse/post failures, stale, zero-write failure, reachability PASS
+
+format_version=48
+samples=0
+crc_ok=True
+wrote=C:\Users\arika\Desktop\workspace_research\study\07_results\v58_explained_package_20260919\package\V58_EXPLAINED_20260919\firmware\analysis\v58_tests\offline\analysis\run_01\converted
+format_version=48
+samples=0
+crc_ok=True
+wrote=C:\Users\arika\Desktop\workspace_research\study\07_results\v58_explained_package_20260919\package\V58_EXPLAINED_20260919\firmware\analysis\v58_tests\offline\analysis\run_02\converted
+format_version=48
+samples=0
+crc_ok=True
+wrote=C:\Users\arika\Desktop\workspace_research\study\07_results\v58_explained_package_20260919\package\V58_EXPLAINED_20260919\firmware\analysis\v58_tests\offline\verify\run_01\converted
+format_version=48
+samples=0
+crc_ok=True
+wrote=C:\Users\arika\Desktop\workspace_research\study\07_results\v58_explained_package_20260919\package\V58_EXPLAINED_20260919\firmware\analysis\v58_tests\offline\duplicate\run_01\converted
+V58 offline PASS
+
+

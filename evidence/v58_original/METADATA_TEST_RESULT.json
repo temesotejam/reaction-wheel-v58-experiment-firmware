@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "synthetic_only": true,
+  "trials": 200,
+  "columns": 74,
+  "serialized_bytes": 176236,
+  "reserve_bytes": 262144
+}

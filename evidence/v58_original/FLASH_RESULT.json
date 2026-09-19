@@ -1,0 +1,14 @@
+{
+  "status": "WAITING_FOR_USER_USB_RECONNECTION",
+  "flashed": false,
+  "boot_verified": false,
+  "measurement_started": false,
+  "last_confirmed_port": "COM7",
+  "expected_mac": "f0:9e:9e:32:53:0c",
+  "user_reply": "User is doing another task and will notify when USB is reconnected.",
+  "firmware": {
+    "path": "Projects/2026_09_13_atoms3cam_v58_paired_probe_coast_logger/.pio/build/atoms3cam/firmware.bin",
+    "bytes": 1347952,
+    "sha256": "6ceaade67fc4debf96612b9cc32693cf398af8f38049eac68a34c8326c241281"
+  }
+}

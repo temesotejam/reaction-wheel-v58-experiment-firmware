@@ -1,0 +1,13 @@
+{
+  "as_of_jst": "2026-09-19T20:28:20+09:00",
+  "revision": "paired_probe_coast_v58_50ms_20260913",
+  "source_implementation_date": "2026-09-13",
+  "latest_research_log_date": "2026-09-15",
+  "v58_flashed": false,
+  "v58_hardware_measured": false,
+  "last_recorded_flashed_revision": "fixed_probe_v57b_baseline_mad_q50_20260912",
+  "hardware_connected_this_task": false,
+  "firmware_modified_this_task": false,
+  "source_review_v58_beta": "Adopted HOLD_073 updates at beta 0.025 during the ordinary fixed-probe run. Fixed-probe manager state does not update runner pulse_active or last_pulse_end_ms; walking beta suppression is not linked.",
+  "research_next_step": "After USB reconnection and target confirmation, flash V58 and acquire at least two Full Runs; assess actual initial-state matching and coast correction before control adoption."
+}

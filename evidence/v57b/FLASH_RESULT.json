@@ -1,0 +1,12 @@
+{
+  "flashed": true,
+  "port": "COM7",
+  "mac": "f0:9e:9e:32:53:0c",
+  "hash_verified_regions": 4,
+  "firmware_sha256": "d61d03f2a5505edf43ba7b0616a8e5845248a21d55ffb121e68665783b48b7a2",
+  "normal_boot_confirmed": true,
+  "wifi_confirmed": true,
+  "boot_observation": "initial serial capture empty; subsequent WiFi visible per user",
+  "measurement_started": false,
+  "confirmation_source": "User confirmed SSID visible after side reset; no serial application boot trace"
+}

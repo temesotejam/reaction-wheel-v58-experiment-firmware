@@ -1,0 +1,13 @@
+# PlatformIO
+.pio/
+firmware/.pio/
+
+# Generated test outputs
+firmware/analysis/
+**/__pycache__/
+*.pyc
+*.exe
+
+# Generated/derived handoff artifacts kept out of Git history
+binary/*.bin
+references/*.pdf

@@ -1,0 +1,155 @@
+{
+  "revision": "paired_probe_coast_v58_50ms_20260913",
+  "locations": [
+    {
+      "file": "firmware/src/main.cpp",
+      "line": 43,
+      "symbol": "void setup()"
+    },
+    {
+      "file": "firmware/src/main.cpp",
+      "line": 95,
+      "symbol": "void loop()"
+    },
+    {
+      "file": "firmware/src/imu_manager.cpp",
+      "line": 9,
+      "symbol": "bool ImuManager::begin()"
+    },
+    {
+      "file": "firmware/src/imu_manager.cpp",
+      "line": 45,
+      "symbol": "void ImuManager::update()"
+    },
+    {
+      "file": "firmware/src/experiment_runner.cpp",
+      "line": 190,
+      "symbol": "void ExperimentRunner::updateFilterSeries("
+    },
+    {
+      "file": "firmware/src/experiment_runner.cpp",
+      "line": 318,
+      "symbol": "void ExperimentRunner::updateStartupCalibration("
+    },
+    {
+      "file": "firmware/src/experiment_runner.cpp",
+      "line": 364,
+      "symbol": "void ExperimentRunner::updateCurrentRollState("
+    },
+    {
+      "file": "firmware/src/experiment_runner.cpp",
+      "line": 983,
+      "symbol": "void ExperimentRunner::beginMeasurementRun()"
+    },
+    {
+      "file": "firmware/src/experiment_runner.cpp",
+      "line": 2081,
+      "symbol": "float ExperimentRunner::energyControlPotentialJ("
+    },
+    {
+      "file": "firmware/src/experiment_runner.cpp",
+      "line": 2101,
+      "symbol": "float ExperimentRunner::energyControlAutonomousFreeNextPeakAmplitude("
+    },
+    {
+      "file": "firmware/src/experiment_runner.cpp",
+      "line": 2148,
+      "symbol": "float ExperimentRunner::energyControlAutonomousCorrectedPrediction("
+    },
+    {
+      "file": "firmware/src/experiment_runner.cpp",
+      "line": 2400,
+      "symbol": "void ExperimentRunner::updateEnergyControlAutonomousMotion("
+    },
+    {
+      "file": "firmware/src/experiment_runner.cpp",
+      "line": 2473,
+      "symbol": "void ExperimentRunner::updateEnergyControlAutonomousPeakTracker("
+    },
+    {
+      "file": "firmware/src/experiment_runner.cpp",
+      "line": 2526,
+      "symbol": "void ExperimentRunner::updateEnergyControlAutonomousAtZeroCross("
+    },
+    {
+      "file": "firmware/src/experiment_runner.cpp",
+      "line": 3410,
+      "symbol": "float ExperimentRunner::predictedChargeMaS("
+    },
+    {
+      "file": "firmware/src/experiment_runner.cpp",
+      "line": 5019,
+      "symbol": "void ExperimentRunner::updatePulseModelPrediction()"
+    },
+    {
+      "file": "firmware/src/experiment_runner.cpp",
+      "line": 5045,
+      "symbol": "float ExperimentRunner::predictCurrentGoalMa("
+    },
+    {
+      "file": "firmware/src/experiment_runner.cpp",
+      "line": 5056,
+      "symbol": "float ExperimentRunner::predictRiseTauS("
+    },
+    {
+      "file": "firmware/src/experiment_runner.cpp",
+      "line": 5065,
+      "symbol": "float ExperimentRunner::predictBetaMin("
+    },
+    {
+      "file": "firmware/src/experiment_runner.cpp",
+      "line": 5094,
+      "symbol": "void ExperimentRunner::logSampleIfDue()"
+    },
+    {
+      "file": "firmware/src/fixed_probe_runner.cpp",
+      "line": 3,
+      "symbol": "bool ExperimentRunner::startFixedProbeCapture("
+    },
+    {
+      "file": "firmware/src/fixed_probe_runner.cpp",
+      "line": 81,
+      "symbol": "void ExperimentRunner::updateFixedProbeRun()"
+    },
+    {
+      "file": "firmware/src/fixed_probe_manager.cpp",
+      "line": 11,
+      "symbol": "bool Roller485Manager::beginFixedProbe("
+    },
+    {
+      "file": "firmware/src/fixed_probe_manager.cpp",
+      "line": 81,
+      "symbol": "void Roller485Manager::serviceFixedProbeSafety()"
+    },
+    {
+      "file": "firmware/src/fixed_probe_manager.cpp",
+      "line": 217,
+      "symbol": "bool Roller485Manager::beginFixedProbePulse()"
+    },
+    {
+      "file": "firmware/src/fixed_probe_manager.cpp",
+      "line": 270,
+      "symbol": "bool Roller485Manager::zeroFixedProbePulse("
+    },
+    {
+      "file": "firmware/src/fixed_probe_manager.cpp",
+      "line": 356,
+      "symbol": "void Roller485Manager::sampleV58Speed()"
+    },
+    {
+      "file": "firmware/tools/analyze_v58.py",
+      "line": 21,
+      "symbol": "def analyze_trials("
+    },
+    {
+      "file": "firmware/tools/analyze_v58.py",
+      "line": 68,
+      "symbol": "def match("
+    },
+    {
+      "file": "firmware/tools/analyze_v58.py",
+      "line": 102,
+      "symbol": "def coast_regression("
+    }
+  ]
+}

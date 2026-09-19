@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "synthetic_only": true,
+  "tests": [
+    "200 exact Q50 event integrals",
+    "100 unique pairs",
+    "known motor delta = 10 rpm for both methods",
+    "six plots",
+    "each caliper/run/direction mismatch rejected",
+    "no coast reuse",
+    "regression extrapolation rejected",
+    "speed trace/event/baseline/current gate rejections",
+    "current gap/missing boundary",
+    "CRC and duplicate rejection",
+    "225 rpm boundaries"
+  ]
+}

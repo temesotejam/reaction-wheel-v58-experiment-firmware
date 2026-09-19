@@ -1,0 +1,6 @@
+normal_deadline_transition reason=PENDING aborted=0 index=1 current_reads_delta=0 sequence_delta=0 failures=0 previous_result=COMPLETE deadline_met=1
+full=0 count=20 valid=20 expected=20
+full=1 count=100 valid=100 expected=100
+V58 production: normal deadline transition, 20/100 paired event runs, retry, pulse/post failures, stale, zero-write failure, reachability PASS
+
+V58 offline PASS; see OFFLINE_TEST_RESULT.json

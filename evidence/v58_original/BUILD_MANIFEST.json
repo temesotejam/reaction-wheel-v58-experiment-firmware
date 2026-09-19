@@ -1,0 +1,253 @@
+{
+  "created_jst": "2026-09-13T12:38:05.021729+09:00",
+  "revision": "paired_probe_coast_v58_50ms_20260913",
+  "project": "Projects/2026_09_13_atoms3cam_v58_paired_probe_coast_logger",
+  "formal": "study/06_code/v58_paired_probe_coast_20260913",
+  "build_success": true,
+  "ram_bytes": 215044,
+  "flash_bytes": 1347585,
+  "firmware": {
+    "path": "Projects/2026_09_13_atoms3cam_v58_paired_probe_coast_logger/.pio/build/atoms3cam/firmware.bin",
+    "bytes": 1347952,
+    "sha256": "6ceaade67fc4debf96612b9cc32693cf398af8f38049eac68a34c8326c241281"
+  },
+  "source_and_formal_files": [
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/.gitignore",
+      "bytes": 59,
+      "sha256": "14ebca1957b5585adc65e0bb0d743769f158b561bcb136e13800265e77ee1c22"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/platformio.ini",
+      "bytes": 629,
+      "sha256": "e937cf69fa60276b3358c63a7b8dbe640c597ced28ab61f1fe7095b88c6c18fd"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/README.md",
+      "bytes": 7606,
+      "sha256": "5ca921de3b79cc96510063096d8be8eb0bf92a5ab88a727da0977305b3818f67"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/docs/INDEX_V58.html",
+      "bytes": 3806,
+      "sha256": "1a36b99849542253655c7ef4d0646d4a64e6ff45f5c9e96ff775867166e57bf4"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/docs/V58_USER_SPEC.md",
+      "bytes": 10430,
+      "sha256": "d0c774c6049d7b3853fc24982044c54f4c1924411148a3c9f28679cf6b87a115"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/beta_phase_controller.h",
+      "bytes": 3230,
+      "sha256": "60a07b21d082a3cf4d465e9ce38388848f19986843c16d4117b6d8c7ea996d94"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/beta_turn_fast_controller.h",
+      "bytes": 4151,
+      "sha256": "035f842172464c941846e7dd4c749ee4f1000ab3b893a722a5528edf5359518b"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/config.h",
+      "bytes": 50423,
+      "sha256": "b4d92dd0a3d3bcc32a3f72dbf8bf10c6a5c958fbc8a8be0cec3fb904abe04ee1"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/current_timing_audit.h",
+      "bytes": 7073,
+      "sha256": "1b44d1b6916d12de199e6b764b2b5eef6f416344d44778791c5ef184166475b4"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/current_timing_json.cpp",
+      "bytes": 4466,
+      "sha256": "1ee1729c5784a541771cbd6f8d4e41510ec611e87f714c453b64cf1cc7e697b5"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/current_timing_json.h",
+      "bytes": 299,
+      "sha256": "6a157110f4014a52e4c18182fab3fd928b0fc4062c15099432d6363c0d99b652"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/experiment_runner.cpp",
+      "bytes": 293619,
+      "sha256": "9634cbe868c8a86b8bc038a1a1e80c3c5eee55c6fa6583a8cd1aa0e8483cc903"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/experiment_runner.h",
+      "bytes": 35919,
+      "sha256": "939cbeaf3ed9ed47a88770d871d55aafa0c950acc70f837c6ad0314f75959dd1"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/fixed_probe_baseline.h",
+      "bytes": 2191,
+      "sha256": "cf0c1e6eff2168ac671940d9a29d07d04d447a7dd69e853701836d71448e53a4"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/fixed_probe_json.cpp",
+      "bytes": 9937,
+      "sha256": "34af3c156c9a458a8ea74f3299ce99cefeb1024c5bef92d7c0bdce5b370336d6"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/fixed_probe_manager.cpp",
+      "bytes": 22746,
+      "sha256": "68fd4c8f3c3c6cce3f05482546ac148ed75b79d94a74125d2a4799f4486fcccc"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/fixed_probe_runner.cpp",
+      "bytes": 3520,
+      "sha256": "d48c7a70ddf8ceddd6b9c0fc46bf2ee00bbd32527b945201df2338887cb7fcbe"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/fixed_probe_v57.h",
+      "bytes": 13426,
+      "sha256": "c18f19e06cdc2c381abd66fc006a2cf9d53687b51123968727832314d68c3eb7"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/imu_manager.cpp",
+      "bytes": 6932,
+      "sha256": "6c626a34f17c4c5a0f7aa36fcf5b62d68f65dbea79fdabcbd2b7c33e76b33f37"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/imu_manager.h",
+      "bytes": 2685,
+      "sha256": "8ccee0214e65d06dc1e7193e8925ff05040b5422ac1533267c0f395c6695d132"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/log_types.h",
+      "bytes": 6042,
+      "sha256": "d4e76cbeabc3da9e901f0246aa0e317d0b301a758007fc36d75ca23acde10c71"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/main.cpp",
+      "bytes": 8326,
+      "sha256": "cc20baaa6f375010d50479095cd412d80bb2001ccfc775aa972598a109c404c3"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/measured_q_stop.h",
+      "bytes": 5829,
+      "sha256": "6ae88af0334662f13ba6ff8b5c45fb87a265535d2ba42658736d02f51ba3197b"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/psram_logger.cpp",
+      "bytes": 125610,
+      "sha256": "7deecc59458c3a10e7b3cc488c4be571845374d414694ee9ede8741ddb0ef4bc"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/psram_logger.h",
+      "bytes": 30177,
+      "sha256": "1f1381edb53328d5f47fc1ba478697144d42a025f523a28f1ae87cf2fa65d499"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/q_observer.h",
+      "bytes": 9180,
+      "sha256": "6890e24136f2d9e00df02703133f2c503c0973460e28993b9b4d9c6b432f5eb5"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/q_observer_json.cpp",
+      "bytes": 15100,
+      "sha256": "c63fdcd9b2cadb407d2fff3a1e840761ee9b4a9fe3ced9386454b84b187adc80"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/q_observer_json.h",
+      "bytes": 125,
+      "sha256": "1fa384f6f5531c0e5c7ab5127124087c8a40ccf348e005094297d2f5d9138d11"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/roller485_manager.cpp",
+      "bytes": 25407,
+      "sha256": "2b8e496f1a20c1ea0bc38b241bac7d8d03ea476bbc314117ab9d0d97969074d5"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/roller485_manager.h",
+      "bytes": 6487,
+      "sha256": "6884f17493095902ec0dcfe6160f0608094e1440c60a0f906ad2c98ae98a7931"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/timing_audit.h",
+      "bytes": 1491,
+      "sha256": "514fd918843d21460fa447adaa6395e21b84fbdba046808420baebe5f342799e"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/web_ui.cpp",
+      "bytes": 24970,
+      "sha256": "b9ef9950d97da1a2e0a688eb2a360641ebd59c4b841827b69fc9b3bfa359fb7a"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/web_ui.h",
+      "bytes": 1171,
+      "sha256": "9010b658c99f3063eef15695843264c732375c2df7496c4a85512949ed641cee"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/wheel_observer.h",
+      "bytes": 1227,
+      "sha256": "84c5186e01fbbb9337dfee9ee9f36a25703a18af801ea751d861837180a1ee0a"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/wheel_probe_runner.cpp",
+      "bytes": 7464,
+      "sha256": "8a91aa844f62cd3f56c990f6c49eabef4c3a1dd3350e3444887a6cc57485fb89"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/src/wheel_probe_v55.h",
+      "bytes": 3407,
+      "sha256": "8bcc6163df5ed03145b63028f80c802f7e487f2120412f945e98d0914a5bca1d"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/tools/analyze_v57.py",
+      "bytes": 10398,
+      "sha256": "44050ae4aa2d94447283fd2087f340ce478642059c211ad88965703343781277"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/tools/analyze_v57b.py",
+      "bytes": 10279,
+      "sha256": "7abb7eaf1b45b4bb840bf652533ec613331783a6f25f5b4441ea5aadf887a5b6"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/tools/analyze_v58.py",
+      "bytes": 15993,
+      "sha256": "1893c10fd95e2f1580bb4335e26e7fa61e578fe84df533e3e98d2b0107a01b40"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/tools/convert_rwlog_to_csv.py",
+      "bytes": 55964,
+      "sha256": "29b00de5e0c2b15bfecb6a873f12709d05b4a16377ab745391ce6dc38037ef15"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/tools/test_v58.py",
+      "bytes": 1601,
+      "sha256": "be9d76dbca198dcb1ffc7c673ef7c2fbf6510ebcc7846c978b379f1960bd018c"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/tools/test_v58_offline.py",
+      "bytes": 6624,
+      "sha256": "99b829e78944c2169bfa909056e56eed1efff646c07d5e49f8c72c685086944b"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/tools/native_test/Arduino.h",
+      "bytes": 478,
+      "sha256": "07fd0a20319b5d3727cd4354ae208fbe31bb13eb7d91339ae19dbc44b1b32fc4"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/tools/native_v58/Arduino.h",
+      "bytes": 465,
+      "sha256": "3233a24e7caca212b5e1e6568d484177c897fb014fe699b363e70b07173e2da2"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/tools/native_v58/test_fixed_probe.cpp",
+      "bytes": 12482,
+      "sha256": "268e33b617b6086c81bd3fa824ef3b224fa1e058e0407e3c3a05f012e3b2f10b"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/tools/native_v58/test_metadata.cpp",
+      "bytes": 15494,
+      "sha256": "76cc86bbcf02ddfeed91b1810e89478d4030a5acdf3672c3a55175424ae0c74d"
+    },
+    {
+      "path": "study/06_code/v58_paired_probe_coast_20260913/tools/native_v58/Wire.h",
+      "bytes": 2675,
+      "sha256": "21786779fe6fca92a4fef53fb4b068429c8ecacdb8e2e682ee91e042f413292a"
+    }
+  ],
+  "formal_byte_match": true,
+  "flashed": false
+}
