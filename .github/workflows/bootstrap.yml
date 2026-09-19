@@ -1,0 +1,32 @@
+name: Bootstrap curated repository
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'bootstrap/READY'
+
+permissions:
+  contents: write
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Expand curated source tree
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/v58repo
+          mkdir -p /tmp/v58repo
+          unzip -q bootstrap/payload.zip -d /tmp/v58repo
+          rsync -a --delete --exclude='.git/' /tmp/v58repo/ ./
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Import curated V58 experiment firmware"
+            git push
+          fi
